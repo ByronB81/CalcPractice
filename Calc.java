@@ -12,4 +12,16 @@ public class Calc {
     return subtractTotal;
   }
 
+  public int multiply(int a, int b) {
+    int multiplyTotal = a * b;
+    return multiplyTotal;
+  }
+
+  public int divide(int a, int b) {
+    int divisionTotal = a / b;
+    return divisionTotal;
+  }
+
+  
+
 }
